@@ -12,6 +12,9 @@
 
     <name>Tutoriais Java</name>
     <description>Projeto multi-módulo para tutoriais e POCs em Java</description>
+    <modules>
+        <module>java-comparacao-demo</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
