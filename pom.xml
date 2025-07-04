@@ -15,6 +15,7 @@
     <modules>
         <module>java-comparacao-demo</module>
         <module>gc-demo-project</module>
+        <module>codeflow-references</module>
     </modules>
 
     <properties>
