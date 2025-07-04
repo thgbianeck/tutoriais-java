@@ -14,6 +14,7 @@
     <description>Projeto multi-módulo para tutoriais e POCs em Java</description>
     <modules>
         <module>java-comparacao-demo</module>
+        <module>gc-demo-project</module>
     </modules>
 
     <properties>
@@ -60,6 +61,13 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
         </dependency>
     </dependencies>
 
